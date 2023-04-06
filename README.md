@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Projeto Labeddit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Labeddit é uma rede social desenvolvida com uma API que permite criação de contas, recursos para login, postagem de conteúdos, likes e dislikes, exclusão e comentários de postagens, todos com suporte a dispositivos móveis e desktop totalmente responsivos. Para garantir a segurança dos usuários, utilizei técnicas de autenticação e autorização, com uso de tokens de segurança.
 
-## Available Scripts
+## 💻 Funcionalidades do Projeto
 
-In the project directory, you can run:
+- Endpoints
+    - Login
+    - Signup
+    - Create post
+    - Get posts
+    - Create comments
+    - Get Comments
+    - Likes or dislikes posts
+    - Likes or dislikes comments
+    - Delete post
+    - Get Post by Id
+    - Get Comment with Post By Id
+    
+- Autenticação e Autorização
+    - Geração de UUID
+    - Geração de hashes
 
-### `npm start`
+- Código
+    - POO (Programação Orientada a Objetos)
+    - Arquitetura em Camadas
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💿 Deploy 
+[Link da aplicação](https://project-labeddit-gabrielmaciel.surge.sh/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🗃️ Backend
+[Link do repositório do backend](https://github.com/gabrielmacieldev/Project-Labeddit)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+1.[NodeJS](https://nodejs.org/en/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.[Typescript](https://www.typescriptlang.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.[Express](https://expressjs.com/pt-br/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.[SQLite](https://www.sqlite.org/index.html)
 
-### `npm run eject`
+5.[Knex](https://knexjs.org/guide/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6.[Postman](https://www.postman.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. [Cors](https://www.npmjs.com/package/cors)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. [Arquitetura em camadas](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. [Roteamento](https://expressjs.com/pt-br/api.html#router)
 
-## Learn More
+10. [Geração de UUID](https://www.npmjs.com/package/uuid)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+11. [Geração de hashes](https://www.npmjs.com/package/bcrypt)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+12. [Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Aplicação back-end de servidor express com banco de dados sqlite3.
 
-### Analyzing the Bundle Size
+## Métodos
+Requisições para a API devem seguir os padrões:
+| Método | Descrição |
+|---|---|
+| `GET` | Retorna informações de um ou mais registros. |
+| `POST` | Utilizado para criar um novo registro. |
+| `PUT` | Atualiza dados de um registro ou altera sua situação. |
+| `DELETE` | Remove um registro do sistema. |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Respostas
 
-### Making a Progressive Web App
+| Código | Descrição |
+|---|---|
+| `200` | Requisição executada com sucesso (success).|
+| `201` | Recurso criado com sucesso (success).|
+| `400` | Erros de validação ou os campos informados não existem no sistema.|
+| `404` | Registro pesquisado não encontrado (Not found).|
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Documentação
+[Link Documentação](https://documenter.getpostman.com/view/24460918/2s93RZL9f1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Autor
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ [Linkedin](https://www.linkedin.com/in/gabrielmacieldev/)

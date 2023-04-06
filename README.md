@@ -47,17 +47,17 @@ O Labeddit é uma rede social desenvolvida com uma API que permite criação de 
 
 6.[Postman](https://www.postman.com/)
 
-7. [Cors](https://www.npmjs.com/package/cors)
+7.[Cors](https://www.npmjs.com/package/cors)
 
-8. [Arquitetura em camadas](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
+8.[Arquitetura em camadas](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
 
-9. [Roteamento](https://expressjs.com/pt-br/api.html#router)
+9.[Roteamento](https://expressjs.com/pt-br/api.html#router)
 
-10. [Geração de UUID](https://www.npmjs.com/package/uuid)
+10.[Geração de UUID](https://www.npmjs.com/package/uuid)
 
-11. [Geração de hashes](https://www.npmjs.com/package/bcrypt)
+11.[Geração de hashes](https://www.npmjs.com/package/bcrypt)
 
-12. [Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
+12.[Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
 
 
 Aplicação back-end de servidor express com banco de dados sqlite3.

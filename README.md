@@ -35,17 +35,17 @@ O Labeddit é uma rede social desenvolvida com uma API que permite criação de 
 
 ## 🚀 Tecnologias Utilizadas
 
- 1.[NodeJS](https://nodejs.org/en/)
+1.[NodeJS](https://nodejs.org/en/)
 
- 2.[Typescript](https://www.typescriptlang.org/)
+2.[Typescript](https://www.typescriptlang.org/)
 
- 3.[Express](https://expressjs.com/pt-br/)
+3.[Express](https://expressjs.com/pt-br/)
 
- 4.[SQLite](https://www.sqlite.org/index.html)
+4.[SQLite](https://www.sqlite.org/index.html)
 
- 5.[Knex](https://knexjs.org/guide/)
+5.[Knex](https://knexjs.org/guide/)
 
- 6.[Postman](https://www.postman.com/)
+6.[Postman](https://www.postman.com/)
 
 7. [Cors](https://www.npmjs.com/package/cors)
 

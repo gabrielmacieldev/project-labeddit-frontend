@@ -1,8 +1,8 @@
-# Projeto Labeddit
+# Labeddit Project
 
-O Labeddit é uma rede social desenvolvida com uma API que permite criação de contas, recursos para login, postagem de conteúdos, likes e dislikes, exclusão e comentários de postagens, todos com suporte a dispositivos móveis e desktop totalmente responsivos. Para garantir a segurança dos usuários, utilizei técnicas de autenticação e autorização, com uso de tokens de segurança.
+Labeddit is a social network developed with an API that allows account creation, login features, content posting, likes and dislikes, post deletion, and comments, all with responsive support for mobile and desktop devices. To ensure user security, I implemented authentication and authorization techniques, utilizing security tokens.
 
-## 💻 Funcionalidades do Projeto
+## 💻 Project Features:
 
 - Endpoints
     - Login
@@ -17,23 +17,22 @@ O Labeddit é uma rede social desenvolvida com uma API que permite criação de 
     - Get Post by Id
     - Get Comment with Post By Id
     
-- Autenticação e Autorização
-    - Geração de UUID
-    - Geração de hashes
+- Authentication and Authorization:
+    - UUID Generation: Generating UUIDs
+    - Hash Generation: Generating hashes
 
-- Código
-    - POO (Programação Orientada a Objetos)
-    - Arquitetura em Camadas
+- Code
+    - OOP (Object-Oriented Programming)
+    - Layered Architecture
+
     
-
 ## 💿 Deploy 
-[Link da aplicação](https://project-labeddit-gabrielmaciel.surge.sh/)
-
+[Application Link](https://project-labeddit-gabrielmaciel.surge.sh/)
 
 ## 🗃️ Backend
-[Link do repositório do backend](https://github.com/gabrielmacieldev/Project-Labeddit)
+[Backend Repository Link](https://github.com/gabrielmacieldev/Project-Labeddit)
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used:
 
 1.[NodeJS](https://nodejs.org/en/)
 
@@ -49,41 +48,43 @@ O Labeddit é uma rede social desenvolvida com uma API que permite criação de 
 
 7.[Cors](https://www.npmjs.com/package/cors)
 
-8.[Arquitetura em camadas](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
+8.[Layered Architecture](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
 
-9.[Roteamento](https://expressjs.com/pt-br/api.html#router)
+9.[Routing](https://expressjs.com/pt-br/api.html#router)
 
-10.[Geração de UUID](https://www.npmjs.com/package/uuid)
+10.[Generating UUIDs](https://www.npmjs.com/package/uuid)
 
-11.[Geração de hashes](https://www.npmjs.com/package/bcrypt)
+11.[Hash Generation](https://www.npmjs.com/package/bcrypt)
 
-12.[Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
+12.[Authentication and Authorization](https://www.npmjs.com/package/jsonwebtoken)
 
 
-Aplicação back-end de servidor express com banco de dados sqlite3.
+Express server backend application with SQLite3 database
 
-## Métodos
-Requisições para a API devem seguir os padrões:
-| Método | Descrição |
+## Methods
+
+Requests to the API should follow the following standards:
+
+| Method | Description |
 |---|---|
-| `GET` | Retorna informações de um ou mais registros. |
-| `POST` | Utilizado para criar um novo registro. |
-| `PUT` | Atualiza dados de um registro ou altera sua situação. |
-| `DELETE` | Remove um registro do sistema. |
+| `GET` | Retrieves information of one or more records. |
+| `POST` | Used to create a new record. |
+| `PUT` | Updates data of a record or changes its status. |
+| `DELETE` | Removes a record from the system. |
 
-## Respostas
+## Responses
 
-| Código | Descrição |
+| Code | Description |
 |---|---|
-| `200` | Requisição executada com sucesso (success).|
-| `201` | Recurso criado com sucesso (success).|
-| `400` | Erros de validação ou os campos informados não existem no sistema.|
-| `404` | Registro pesquisado não encontrado (Not found).|
+| `200` | Successful request execution (success).|
+| `201` | Resource created sucessfully (success).|
+| `400` | Validation errors or the provided fields do not exist in the system.|
+| `404` | Searched record not found (Not found).|
 
 
-## Documentação
-[Link Documentação](https://documenter.getpostman.com/view/24460918/2s93RZL9f1)
+## Documentation
+[Documentation Link](https://documenter.getpostman.com/view/24460918/2s93RZL9f1)
 
-## Autor
+## Author
 
  [Linkedin](https://www.linkedin.com/in/gabrielmacieldev/)

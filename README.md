@@ -27,7 +27,7 @@ Labeddit is a social network developed with an API that allows account creation,
 
     
 ## 💿 Deploy 
-[Application Link](https://project-labeddit-gabrielmaciel.surge.sh/](https://project-labeddit-frontend-okguhtdm3-gabrielmacieldev.vercel.app/)
+[Application Link](https://project-labeddit-frontend-okguhtdm3-gabrielmacieldev.vercel.app/)
 
 ## 🗃️ Backend
 [Backend Repository Link](https://github.com/gabrielmacieldev/Project-Labeddit)
